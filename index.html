@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ilustration.html">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+    <div class="header">
+        <div class="header__block-1">
+            <span onclick="redirect()" class="header__block-1__text l">Illustrations</span>
+            <span onclick="redirectToTwo()" class="header__block-1__text-1 l">Pricing</span>
+            <img class="header__block-1__img" src="./img/Frame.svg" alt="">
+        </div>
+        <div class="header__block-img">
+            <img onclick="redirectToHome()" class="header__img" src="./img/image (3).png" alt="">
+        </div>
+        <div class="header__block-2">
+            <span onclick="redirectToThree()" class="header__block-2__text l">Among Us</span>
+            <span class="header__block-2__text-1 l">Sign in</span>
+            <button class="header__block-2__boton">Sign up</button>
+        </div>
+    </div>
+
+    <div class="i__frame1">
+        <div class="i__frame1__box">
+            <h1 class="i__frame1__box-text1">Create beautiful illustrations, no design skills needed</h1>
+            <p  class="i__frame1__box-text2">A growing illustration library that you can make your own</p>
+            <button style="width: 255px; height: 60px; flex-shrink: 0; background-color: #6DD0FE; border-radius: 30px; "  class="i__frame1__box-button">
+                <p style="color: #391145; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 700; line-height: 17.522px;" class="i__frame1__box-button-text">Find the perfect illustration</p>
+            </button>
+        </div>
+        <div class="i__frame1__box2">
+            
+        </div>
+    </div>
+    <script>
+        function redirect() {
+            window.location.href = "./ilustration.html";
+        }
+        function redirectToTwo() {
+            window.location.href = "./pricing.html";
+        }
+        function redirectToThree() {
+            window.location.href = "./aboutus.html";
+        }
+        function redirectToHome() {
+            window.location.href = "./index.html";
+        }
+    </script>
+</body>
+</html>

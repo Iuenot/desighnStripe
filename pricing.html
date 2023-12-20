@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header__block-1">
+            <span onclick="redirect()" class="header__block-1__text l">Illustrations</span>
+            <span onclick="redirectToTwo()" class="header__block-1__text-1 l">Pricing</span>
+            <img class="header__block-1__img" src="./img/Frame.svg" alt="">
+        </div>
+        <div class="header__block-img">
+            <img onclick="redirectToHome()" class="header__img" src="./img/image (3).png" alt="">
+        </div>
+        <div class="header__block-2">
+            <span onclick="redirectToThree()" class="header__block-2__text l">Among Us</span>
+            <span class="header__block-2__text-1 l">Sign in</span>
+            <button class="header__block-2__boton">Sign up</button>
+        </div>
+    </div>
+    <script>
+        function redirect() {
+            window.location.href = "./ilustration.html";
+        }
+        function redirectToTwo() {
+            window.location.href = "./pricing.html";
+        }
+        function redirectToThree() {
+            window.location.href = "./aboutus.html";
+        }
+        function redirectToHome() {
+            window.location.href = "./index.html";
+        }
+    </script>
+    <main>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </main>
+</body>
+</html>
